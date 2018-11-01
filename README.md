@@ -18,7 +18,7 @@ This fund is a non-profit fund which raises funds and donates to those who contr
 
 | Donor / 捐赠人                 | Amount / 金额 | Time / 时间 | Remarks / 备注 |
 | -------------------------------------- | ------------- | ----------- | ---- |
-| [Poolin 币印](https://www.poolin.com/) | `10.0000 BTC` | 2018-10-31  |      |
+| [Poolin 币印](https://www.poolin.com/) | [10.0000 BTC](https://btc.com/a7e9ab4ac50debb0ef7923fd2c9ea784718d706b6777ed4b1a927dbd47081db7) | 2018-10-31  |      |
 
 ## The Donee / 受捐赠方
 
