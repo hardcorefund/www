@@ -2,7 +2,7 @@
 
 ## The Purpose of the Fund / 基金的目的
 
-This fund is a non-profit fund which raises funds and donates to those who contribute to the Bitcoin ecosystem including individuals, projects, and other forms of organizations and activities. / 非盈利性基金，主要是筹集资金，并捐给为比特币生态做出贡献的相关个人、相关项目以及其他形式的组织和活动等。
+This is a non-profit organization which fundraises and donates to those who contribute to the Bitcoin ecosystem including individuals, projects, and other forms of organizations and activities. / 非盈利性基金，主要是筹集资金，并捐给为比特币生态做出贡献的相关个人、相关项目以及其他形式的组织和活动等。
 
 - Any person can donate to the fund. The donations cannot be used for any commercial purpose. / 任何人都可以捐赠，捐赠不可带任何商业目的，基金不承诺为捐赠人做任何商业目的的宣传。
   - Donations can not be revoked after the donation. The donors can not refund the donations  for any reason, otherwise they will be listed on the blacklist. / 捐赠后不得出尔反尔，不得以任何理由和形式索取捐赠资金，否则列入黑名单公示。
@@ -19,6 +19,8 @@ This fund is a non-profit fund which raises funds and donates to those who contr
 | Donor / 捐赠人                 | Amount / 金额 | Time / 时间 | Remarks / 备注 |
 | -------------------------------------- | ------------- | ----------- | ---- |
 | [Poolin 币印](https://www.poolin.com/) | [10.0000 BTC](https://btc.com/a7e9ab4ac50debb0ef7923fd2c9ea784718d706b6777ed4b1a927dbd47081db7) | 2018-10-31  |      |
+| 郎梓成 | [0.0100 BTC](https://btc.com/8ae6e238a82c79e243ba93a721e15ab885016e4f00c7947f484c3b73fbf0ac23) | 2018-11-01  |      |
+| Anonymous 匿名 | [0.1000 BTC](https://btc.com/52b3bce5ae84a7cec0ab71570424720279f584f0ebfefbf0cf53000163683170) | 2018-11-01  |      |
 
 ## The Donee / 受捐赠方
 
