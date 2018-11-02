@@ -19,7 +19,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Donor / 捐赠人                 | Amount / 金额 | Time / 时间 | Remarks / 备注 |
 | -------------------------------------- | ------------- | ----------- | ---- |
 | [Poolin 币印](https://www.poolin.com/) | [10.0000 BTC](https://btc.com/a7e9ab4ac50debb0ef7923fd2c9ea784718d706b6777ed4b1a927dbd47081db7) | 2018-10-31  |      |
-| 郎梓成 | [0.0100 BTC](https://btc.com/8ae6e238a82c79e243ba93a721e15ab885016e4f00c7947f484c3b73fbf0ac23) | 2018-11-01  |      |
+| Lang Zicheng 郎梓成 | [0.0100 BTC](https://btc.com/8ae6e238a82c79e243ba93a721e15ab885016e4f00c7947f484c3b73fbf0ac23) | 2018-11-01  |      |
 | Anonymous 匿名 | [0.1000 BTC](https://btc.com/52b3bce5ae84a7cec0ab71570424720279f584f0ebfefbf0cf53000163683170) | 2018-11-01  |      |
 
 ## The Donee / 受捐赠方
