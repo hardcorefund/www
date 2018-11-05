@@ -22,6 +22,28 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Lang Zicheng 郎梓成 | [0.0100 BTC](https://btc.com/8ae6e238a82c79e243ba93a721e15ab885016e4f00c7947f484c3b73fbf0ac23) | 2018-11-01  |      |
 | Anonymous 匿名 | [0.1000 BTC](https://btc.com/52b3bce5ae84a7cec0ab71570424720279f584f0ebfefbf0cf53000163683170) | 2018-11-01  |      |
 | Anonymous 匿名 | [0.0120 BTC](https://btc.com/94be35acdd3a24fc6fc12257657ba0d1a2f1fc11b03d74ba388b01c0a5a7b0a2) | 2018-11-02  |      |
+| 晶超 | [5.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 星空 | [5.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| FBG大鸡翼 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 大白鲨 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 七彩神仙鱼 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| CoinBene | [2.5000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 首富王瑞锡 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 宝二爷夫人洋洋 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 行云科技甘峰 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 孟鼎霖 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| BHEX巨建华 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 泽宇 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| avalon森林人 | [5.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| andy | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 千捷 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 张星星 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 大漠戈壁 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| BTW陈龙 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| Qtum基金会 | [5.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 币牛牛黄锦 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 神马杨博士 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 杜均 | [2.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 
 ## The Donee / 受捐赠方
 
