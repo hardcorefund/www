@@ -44,6 +44,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 | 币牛牛黄锦 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | 神马杨博士 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | 杜均 | [2.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| [Mixin Labs](https://mixin.one/) | [5.0000 BTC](https://btc.com/9100ea4e10e22118ade657937c6313ffe94884fd607acafcbcbf6de89d36dbff) | 2018-11-05  |      |
 
 ## The Donee / 受捐赠方
 
