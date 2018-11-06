@@ -24,7 +24,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Anonymous 匿名 | [0.0120 BTC](https://btc.com/94be35acdd3a24fc6fc12257657ba0d1a2f1fc11b03d74ba388b01c0a5a7b0a2) | 2018-11-02  |      |
 | 晶超 | [5.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | 星空 | [5.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
-| FBG大鸡翼 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
+| 比特神犬大鸡翼 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | 大白鲨 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | 七彩神仙鱼 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | [CoinBene满币](https://www.coinbene.com/) | [2.5000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
@@ -45,6 +45,10 @@ This is a non-profit organization which fundraises and donates to those who cont
 | 神马杨博士 | [1.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | 杜均 | [2.0000 BTC](https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e) | 2018-11-05  |      |
 | [Mixin Labs](https://mixin.one/) | [5.0000 BTC](https://btc.com/9100ea4e10e22118ade657937c6313ffe94884fd607acafcbcbf6de89d36dbff) | 2018-11-05  |      |
+| Anonymous 匿名 | [0.0100 BTC](https://btc.com/c85cd1ad7e039bbc546ef3a21d89f6d952c0496e9f47b5ddffc93bfcf4415d6f) | 2018-11-06  |      |
+| Anonymous 匿名 | [0.1000 BTC](https://btc.com/854a5fdad6f65bdfa1c1bc1cca2d4411279baeebf841ad4a4547eb7b048b2c64) | 2018-11-06  |      |
+| [BCD foundation](https://btcd.io/) | [1.0000 BTC](https://btc.com/f1928df5fb0d5495ac373628b671481b71bc9f0155c8cc61f0f0c95ca9e902a0) | 2018-11-06  |      |
+
 
 ## The Donee / 受捐赠方
 
