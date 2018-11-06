@@ -48,6 +48,9 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Anonymous 匿名 | [0.0100 BTC](https://btc.com/c85cd1ad7e039bbc546ef3a21d89f6d952c0496e9f47b5ddffc93bfcf4415d6f) | 2018-11-06  |      |
 | Anonymous 匿名 | [0.1000 BTC](https://btc.com/854a5fdad6f65bdfa1c1bc1cca2d4411279baeebf841ad4a4547eb7b048b2c64) | 2018-11-06  |      |
 | [Bitcoin Diamond Foundation](https://btcd.io/) | [1.0000 BTC](https://btc.com/f1928df5fb0d5495ac373628b671481b71bc9f0155c8cc61f0f0c95ca9e902a0) | 2018-11-06  |      |
+| Anonymous 匿名 | [0.0200 BTC](https://btc.com/86994fd71e525a850d0a11704174aae5019cd386775f8c5ce251053406bbd1f6) | 2018-11-06  |      |
+| Anonymous 匿名 | [0.4990 BTC](https://btc.com/0acc50cb460bf0d4f3062be89484ee7d7c0c8dd730043bdb4c53b3e6afe2e9f7) | 2018-11-06  |      |
+| Anonymous 匿名 | [0.0200 BTC](https://btc.com/fcc83b79b7770b37981f8143b7473819231470bc22fd9df86f9379f86737772a) | 2018-11-06  |      |
 
 
 ## The Donee / 受捐赠方
