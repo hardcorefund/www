@@ -10,7 +10,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 
 ## The Donation Address / 捐赠地址 
 
-- The donation Bitcoin address  / 捐赠比特币地址： `3PY2TuDmDmLtoqHQB7S4s3pQdK9xiCgVjB`
+- The donation Bitcoin address  / 捐赠比特币地址： `3MfwVG6jq3HGwWmKX6m7DwdvAkLPyF8hLJ`
   - DNS verification：`$ dig -t TXT donation.hardcore.fund @8.8.8.8`
 - Current Fund Manager / 基金当前负责人：Pan Zhibiao / 潘志彪, <bit.kevin@gmail.com>
 
