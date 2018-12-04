@@ -58,7 +58,8 @@ This is a non-profit organization which fundraises and donates to those who cont
 
 | Donee / 受捐赠人或项目                         | Time / 时间   | Remarks / 备注 |
 | ---------------------------------------------- | ------------- | -------------- |
-| [Luke Dash Jr](https://twitter.com/lukedashjr) | 2018-10 ~ Now |                |
+| [Luke Dashjr](https://twitter.com/lukedashjr) | 2018-10 ~ Now |                |
+| [Ben Woosley](https://github.com/Empact) | 2018-12 ~ Now |                |
 
 ## Others / 其他
 
