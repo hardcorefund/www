@@ -52,6 +52,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Anonymous 匿名 | [0.4990 BTC](https://btc.com/0acc50cb460bf0d4f3062be89484ee7d7c0c8dd730043bdb4c53b3e6afe2e9f7) | 2018-11-06  |      |
 | Anonymous 匿名 | [0.0200 BTC](https://btc.com/fcc83b79b7770b37981f8143b7473819231470bc22fd9df86f9379f86737772a) | 2018-11-06  |      |
 | 黄建 | [1.0000 BTC](https://btc.com/74b9639af61889c68dc37da2d4043c70d4d772aeb1a65484810567829ac7f278) | 2018-11-07  |      |
+| 大高 | [1.0000 BTC](https://btc.com/a590d5139dcc31a9ff42faf00952698b1a189c00609890bb60072d89984a0340) | 2018-12-09  |      |
 
 
 ## The Donee / 受捐赠方
