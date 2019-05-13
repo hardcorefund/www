@@ -4,24 +4,25 @@
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 <title>Hard Core Fund</title><link href='https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext' rel='stylesheet' type='text/css' /><link href='https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export .footnote-line, .typora-export p { white-space: pre-wrap; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 @media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
   .CodeMirror-gutters { display: none !important; }
 }
-#write li > figure:first-child { margin-top: -20px; }
+#write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; }
 button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
@@ -49,8 +50,9 @@ figure > table { margin: 0px !important; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 80px; }
+table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -80,10 +82,10 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
-  #write { margin-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
   .typora-export #write::after { height: 0px; }
   @page { margin: 20mm 0px; }
 }
@@ -98,7 +100,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
 .md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
@@ -129,6 +131,7 @@ kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
 .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
@@ -157,56 +160,6 @@ iframe { max-width: 100%; width: 100%; border: none; }
  * forked from pixyll.com
  * MIT license
  */
-
-@font-face {
-	font-family: 'Merriweather';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Merriweather Light'), local('Merriweather-Light'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-300.woff') format('woff');
-}
-@font-face {
-	font-family: 'Merriweather';
-	font-style: normal;
-	font-weight: bold;
-	src: local('Merriweather Heavy'), local('Merriweather-Heavy'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-700.woff') format('woff');
-}
-@font-face {
-	font-family: 'Merriweather';
-	font-style: italic;
-	font-weight: normal;
-	src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-300italic.woff') format('woff');
-}
-@font-face {
-	font-family: 'Merriweather';
-	font-style: italic;
-	font-weight: bold;
-	src: local('Merriweather Heavy Italic'), local('Merriweather-HeavyItalic'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-700italic.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Lato Light'), local('Lato-Light'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-300.woff') format('woff');
-}
-@font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: bold;
-	src: local('Lato Black'), local('Lato-Blcak'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-900.woff') format('woff');
-}
-@font-face {
-	font-family: 'Lato';
-	font-style: italic;
-	font-weight: normal;
-	src: local('Lato LightItalic'), local('Lato-LightItalic'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-300italic.woff') format('woff');
-}
-@font-face {
-	font-family: 'Lato';
-	font-style: italic;
-	font-weight: bold;
-	src: local('Lato BlackItalic'), local('Lato-BlackItalic'), url('file:///Users/zhibiaopan/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-900italic.woff') format('woff');
-}
 
 h1,
 .h1,
@@ -508,9 +461,10 @@ a {
 	height: 1.25rem;
 	display: block;
 	-webkit-appearance: initial;
-	top: -2px;
+	top: -0.5rem;
 	margin-left: -1.6em;
-    margin-top: calc(1rem - 7px);
+	margin-top: calc(1rem - 7px);
+	border: none;
 }
 
 .md-task-list-item > input:focus{
@@ -650,10 +604,10 @@ a {
 	border-color: #e5e5e5;
 }
 
- .typora-export p, .typora-export .footnote-line {white-space: normal;} 
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-mac'><h1><a name='header-n1750' class='md-header-anchor '></a>HardCore.Fund</h1><h2><a name='header-n1752' class='md-header-anchor '></a>The Purpose of the Fund / 基金的目的</h2><p>This is a non-profit organization which fundraises and donates to those who contribute to the Bitcoin ecosystem including individuals, projects, and other forms of organizations and activities. / 非盈利性基金，主要是筹集资金，并捐给为比特币生态做出贡献的相关个人、相关项目以及其他形式的组织和活动等。</p><ul><li><p>Any person can donate to the fund. The donations cannot be used for any commercial purpose. / 任何人都可以捐赠，捐赠不可带任何商业目的，基金不承诺为捐赠人做任何商业目的的宣传。</p><ul><li>Donations can not be revoked after the donation. The donors can not refund the donations  for any reason, otherwise they will be listed on the blacklist. / 捐赠后不得出尔反尔，不得以任何理由和形式索取捐赠资金，否则列入黑名单公示。</li></ul></li><li><p>The fund will donate to the donee or project after a comprehensive assessment and it will publicize the list of donees or projects. / 经过综合评定后会对受捐赠人或项目进行捐赠，同时公开受捐赠者或项目名单。</p></li></ul><h2><a name='header-n1762' class='md-header-anchor '></a>The Donation Address / 捐赠地址 </h2><ul><li><p>The donation Bitcoin address  / 捐赠比特币地址： <code>3MfwVG6jq3HGwWmKX6m7DwdvAkLPyF8hLJ</code></p><ul><li>DNS verification：<code>$ dig -t TXT donation.hardcore.fund @8.8.8.8</code></li></ul></li><li><p>Current Fund Manager / 基金当前负责人：Pan Zhibiao / 潘志彪, <a href='mailto:bit.kevin@gmail.com' target='_blank' class='url'>bit.kevin@gmail.com</a></p></li></ul><h2><a name='header-n1771' class='md-header-anchor '></a>The Donor / 捐赠者</h2><figure><table><thead><tr><th>Donor / 捐赠人</th><th>Amount / 金额</th><th>Time / 时间</th><th>Remarks / 备注</th></tr></thead><tbody><tr><td><a href='https://www.poolin.com/'>Poolin 币印</a></td><td><a href='https://btc.com/a7e9ab4ac50debb0ef7923fd2c9ea784718d706b6777ed4b1a927dbd47081db7'>10.0000 BTC</a></td><td>2018-10-31</td><td>&nbsp;</td></tr><tr><td>Lang Zicheng 郎梓成</td><td><a href='https://btc.com/8ae6e238a82c79e243ba93a721e15ab885016e4f00c7947f484c3b73fbf0ac23'>0.0100 BTC</a></td><td>2018-11-01</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/52b3bce5ae84a7cec0ab71570424720279f584f0ebfefbf0cf53000163683170'>0.1000 BTC</a></td><td>2018-11-01</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/94be35acdd3a24fc6fc12257657ba0d1a2f1fc11b03d74ba388b01c0a5a7b0a2'>0.0120 BTC</a></td><td>2018-11-02</td><td>&nbsp;</td></tr><tr><td>晶超</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>星空</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>比特神犬大鸡翼</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>大白鲨</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>七彩神仙鱼</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td><a href='https://www.coinbene.com/'>CoinBene满币</a></td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>2.5000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>首富王瑞锡</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>宝二爷夫人洋洋</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>行云科技甘峰</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>孟鼎霖</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>BHEX巨建华</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>泽宇</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>avalon森林人</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>andy</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>千捷</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>张星星</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>大漠戈壁</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>BTW陈龙</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>Qtum基金会</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>币牛牛黄锦</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>神马杨博士</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>杜均</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>2.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td><a href='https://mixin.one/'>Mixin Labs</a></td><td><a href='https://btc.com/9100ea4e10e22118ade657937c6313ffe94884fd607acafcbcbf6de89d36dbff'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/c85cd1ad7e039bbc546ef3a21d89f6d952c0496e9f47b5ddffc93bfcf4415d6f'>0.0100 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/854a5fdad6f65bdfa1c1bc1cca2d4411279baeebf841ad4a4547eb7b048b2c64'>0.1000 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td><a href='https://btcd.io/'>Bitcoin Diamond Foundation</a></td><td><a href='https://btc.com/f1928df5fb0d5495ac373628b671481b71bc9f0155c8cc61f0f0c95ca9e902a0'>1.0000 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/86994fd71e525a850d0a11704174aae5019cd386775f8c5ce251053406bbd1f6'>0.0200 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/0acc50cb460bf0d4f3062be89484ee7d7c0c8dd730043bdb4c53b3e6afe2e9f7'>0.4990 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/fcc83b79b7770b37981f8143b7473819231470bc22fd9df86f9379f86737772a'>0.0200 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>黄建</td><td><a href='https://btc.com/74b9639af61889c68dc37da2d4043c70d4d772aeb1a65484810567829ac7f278'>1.0000 BTC</a></td><td>2018-11-07</td><td>&nbsp;</td></tr><tr><td>大高</td><td><a href='https://btc.com/a590d5139dcc31a9ff42faf00952698b1a189c00609890bb60072d89984a0340'>1.0000 BTC</a></td><td>2018-12-09</td><td>&nbsp;</td></tr></tbody></table></figure><h2><a name='header-n1954' class='md-header-anchor '></a>The Donee / 受捐赠方</h2><figure><table><thead><tr><th>Donee / 受捐赠人或项目</th><th>Time / 时间</th><th>Remarks / 备注</th></tr></thead><tbody><tr><td><a href='https://twitter.com/lukedashjr'>Luke Dashjr</a></td><td>2018-10 ~ Now</td><td>&nbsp;</td></tr><tr><td><a href='https://github.com/Empact'>Ben Woosley</a></td><td>2018-12 ~ Now</td><td>&nbsp;</td></tr></tbody></table></figure><h2><a name='header-n1968' class='md-header-anchor '></a>Others / 其他</h2><ul><li><a href='https://github.com/hardcorefund/www'>This Page&#39;s Github</a></li></ul><hr /><p>©2018 HardCore.fund</p></div>
+<div  id='write'  class = 'is-mac'><h1><a name='header-n227' class='md-header-anchor '></a>HardCore.Fund</h1><h2><a name='header-n229' class='md-header-anchor '></a>The Purpose of the Fund / 基金的目的</h2><p>This is a non-profit organization which fundraises and donates to those who contribute to the Bitcoin ecosystem including individuals, projects, and other forms of organizations and activities. / 非盈利性基金，主要是筹集资金，并捐给为比特币生态做出贡献的相关个人、相关项目以及其他形式的组织和活动等。</p><ul><li><p>Any person can donate to the fund. The donations cannot be used for any commercial purpose. / 任何人都可以捐赠，捐赠不可带任何商业目的，基金不承诺为捐赠人做任何商业目的的宣传。</p><ul><li>Donations can not be revoked after the donation. The donors can not refund the donations  for any reason, otherwise they will be listed on the blacklist. / 捐赠后不得出尔反尔，不得以任何理由和形式索取捐赠资金，否则列入黑名单公示。</li></ul></li><li><p>The fund will donate to the donee or project after a comprehensive assessment and it will publicize the list of donees or projects. / 经过综合评定后会对受捐赠人或项目进行捐赠，同时公开受捐赠者或项目名单。</p></li></ul><h2><a name='header-n239' class='md-header-anchor '></a>The Donation Address / 捐赠地址 </h2><ul><li><p>The donation Bitcoin address  / 捐赠比特币地址： <code>3MfwVG6jq3HGwWmKX6m7DwdvAkLPyF8hLJ</code></p><ul><li>DNS verification：<code>$ dig -t TXT donation.hardcore.fund @8.8.8.8</code></li></ul></li><li><p>Current Fund Manager / 基金当前负责人：Pan Zhibiao / 潘志彪, <a href='mailto:bit.kevin@gmail.com' target='_blank' class='url'>bit.kevin@gmail.com</a></p></li><li><p>Executive Director / 执行董事：<a href='https://twitter.com/DoveyWan'>Dovey Wan</a></p></li></ul><h2><a name='header-n250' class='md-header-anchor '></a>The Donor / 捐赠者</h2><figure><table><thead><tr><th>Donor / 捐赠人</th><th>Amount / 金额</th><th>Time / 时间</th><th>Remarks / 备注</th></tr></thead><tbody><tr><td><a href='https://www.poolin.com/'>Poolin 币印</a></td><td><a href='https://btc.com/a7e9ab4ac50debb0ef7923fd2c9ea784718d706b6777ed4b1a927dbd47081db7'>10.0000 BTC</a></td><td>2018-10-31</td><td>&nbsp;</td></tr><tr><td>Lang Zicheng 郎梓成</td><td><a href='https://btc.com/8ae6e238a82c79e243ba93a721e15ab885016e4f00c7947f484c3b73fbf0ac23'>0.0100 BTC</a></td><td>2018-11-01</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/52b3bce5ae84a7cec0ab71570424720279f584f0ebfefbf0cf53000163683170'>0.1000 BTC</a></td><td>2018-11-01</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/94be35acdd3a24fc6fc12257657ba0d1a2f1fc11b03d74ba388b01c0a5a7b0a2'>0.0120 BTC</a></td><td>2018-11-02</td><td>&nbsp;</td></tr><tr><td>晶超</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>星空</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>比特神犬大鸡翼</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>大白鲨</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>七彩神仙鱼</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td><a href='https://www.coinbene.com/'>CoinBene满币</a></td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>2.5000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>首富王瑞锡</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>宝二爷夫人洋洋</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>行云科技甘峰</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>孟鼎霖</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>BHEX巨建华</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>泽宇</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>avalon森林人</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>andy</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>千捷</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>张星星</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>大漠戈壁</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>BTW陈龙</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>Qtum基金会</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>币牛牛黄锦</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>神马杨博士</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>1.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>杜均</td><td><a href='https://btc.com/b034489a72afdea6b2c044b8c671ac8c5b42244dd9ab17e3ce7d51466e6d6b5e'>2.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td><a href='https://mixin.one/'>Mixin Labs</a></td><td><a href='https://btc.com/9100ea4e10e22118ade657937c6313ffe94884fd607acafcbcbf6de89d36dbff'>5.0000 BTC</a></td><td>2018-11-05</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/c85cd1ad7e039bbc546ef3a21d89f6d952c0496e9f47b5ddffc93bfcf4415d6f'>0.0100 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/854a5fdad6f65bdfa1c1bc1cca2d4411279baeebf841ad4a4547eb7b048b2c64'>0.1000 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td><a href='https://btcd.io/'>Bitcoin Diamond Foundation</a></td><td><a href='https://btc.com/f1928df5fb0d5495ac373628b671481b71bc9f0155c8cc61f0f0c95ca9e902a0'>1.0000 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/86994fd71e525a850d0a11704174aae5019cd386775f8c5ce251053406bbd1f6'>0.0200 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/0acc50cb460bf0d4f3062be89484ee7d7c0c8dd730043bdb4c53b3e6afe2e9f7'>0.4990 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>Anonymous 匿名</td><td><a href='https://btc.com/fcc83b79b7770b37981f8143b7473819231470bc22fd9df86f9379f86737772a'>0.0200 BTC</a></td><td>2018-11-06</td><td>&nbsp;</td></tr><tr><td>黄建</td><td><a href='https://btc.com/74b9639af61889c68dc37da2d4043c70d4d772aeb1a65484810567829ac7f278'>1.0000 BTC</a></td><td>2018-11-07</td><td>&nbsp;</td></tr><tr><td>大高</td><td><a href='https://btc.com/a590d5139dcc31a9ff42faf00952698b1a189c00609890bb60072d89984a0340'>1.0000 BTC</a></td><td>2018-12-09</td><td>&nbsp;</td></tr></tbody></table></figure><h2><a name='header-n433' class='md-header-anchor '></a>The Donee / 受捐赠方</h2><figure><table><thead><tr><th>Donee / 受捐赠人或项目</th><th>Time / 时间</th><th>Remarks / 备注</th></tr></thead><tbody><tr><td><a href='https://twitter.com/lukedashjr'>Luke Dashjr</a></td><td>2018-10 ~ Now</td><td>&nbsp;</td></tr><tr><td><a href='https://github.com/Empact'>Ben Woosley</a></td><td>2018-12 ~ Now</td><td>&nbsp;</td></tr></tbody></table></figure><h2><a name='header-n447' class='md-header-anchor '></a>Others / 其他</h2><ul><li><a href='https://github.com/hardcorefund/www'>This Page&#39;s Github</a></li></ul><hr /><p>©2018 HardCore.fund</p></div>
 </body>
 </html>
