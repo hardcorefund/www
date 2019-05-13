@@ -12,8 +12,11 @@ This is a non-profit organization which fundraises and donates to those who cont
 
 - The donation Bitcoin address  / 捐赠比特币地址： `3MfwVG6jq3HGwWmKX6m7DwdvAkLPyF8hLJ`
   - DNS verification：`$ dig -t TXT donation.hardcore.fund @8.8.8.8`
-- Current Fund Manager / 基金当前负责人：Pan Zhibiao / 潘志彪, <bit.kevin@gmail.com>
-- Executive Director / 执行董事：[Dovey Wan](https://twitter.com/DoveyWan)
+
+## Manager Team / 基金管理团队
+
+- Fund Manager / 基金负责人：Pan Zhibiao / 潘志彪, <bit.kevin@gmail.com>
+- Executive Director / 执行董事：[Dovey Wan](https://twitter.com/DoveyWan)，<dovey@primitive.ventures>
 
 ## The Donor / 捐赠者
 
