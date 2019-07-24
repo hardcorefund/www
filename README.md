@@ -10,7 +10,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 
 ## The Donation Address / 捐赠地址 
 
-- The donation Bitcoin address  / 捐赠比特币地址： `3MfwVG6jq3HGwWmKX6m7DwdvAkLPyF8hLJ`
+- The donation Bitcoin address  / 捐赠比特币地址： `bitcoin:12nzMMaUULxtJi5nf4WRU55xVan1kCBH1w`
   - DNS verification：`$ dig -t TXT donation.hardcore.fund @8.8.8.8`
 
 ## Manager Team / 基金管理团队
