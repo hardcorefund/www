@@ -57,6 +57,15 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Anonymous 匿名 | [0.0200 BTC](https://btc.com/fcc83b79b7770b37981f8143b7473819231470bc22fd9df86f9379f86737772a) | 2018-11-06  |      |
 | 黄建 | [1.0000 BTC](https://btc.com/74b9639af61889c68dc37da2d4043c70d4d772aeb1a65484810567829ac7f278) | 2018-11-07  |      |
 | 大高 | [1.0000 BTC](https://btc.com/a590d5139dcc31a9ff42faf00952698b1a189c00609890bb60072d89984a0340) | 2018-12-09  |      |
+| Anonymous 匿名 | [0.0022 BTC](https://btc.com/be710de995fc5a0750026e0535d2ba15d04a17a54bf0b34a9ca78c90c379318b) | 2019-06-20  |      |
+| Anonymous 匿名 | [0.0040 BTC](https://btc.com/d67d18f073190ab6908d82b6bbe5aa7e7ee288afcb57e8abf242c5f0080ae001) | 2019-06-20  |      |
+| Anonymous 匿名 | [0.0008 BTC](https://btc.com/be03cc5d34ba11d67d4e11f73b8ed010d7cdf0b269d248fb6e1abc9ab00f1e41) | 2019-06-20  |      |
+| Anonymous 匿名 | [0.1500 BTC](https://btc.com/3bf6932a4e9d86744b30fc3333cf5f3aa2751a36ec7ba0e5400c9330c295932b) | 2019-06-20  |      |
+| Anonymous 匿名 | [0.1087 BTC](https://btc.com/c401167d72798ec4deb40599a444caf40fde48ef6d7022ba896af5a205626fce) | 2019-06-20  |      |
+| Anonymous 匿名 | [0.0075 BTC](https://btc.com/92e9ff0ebed9dbb57fced6eef948a187e2d72771320756cc48639d5cf31a9555) | 2019-06-21  |      |
+| Anonymous 匿名 | [0.0903 BTC](https://btc.com/d8586307afdc2b4fd55610a477cc2adb20a359065dd40655be3832d0bbcb5643) | 2019-06-23  |      |
+| Anonymous 匿名 | [1.0000 BTC](https://btc.com/39051a3f722d08f7e96039a0549aa13ae1ba24b69259c63c8e7989c9ada5e9d6) | 2019-11-26  |      |
+
 
 
 ## The Donee / 受捐赠方
@@ -64,7 +73,7 @@ This is a non-profit organization which fundraises and donates to those who cont
 | Donee / 受捐赠人或项目                         | Time / 时间   | Remarks / 备注 |
 | ---------------------------------------------- | ------------- | -------------- |
 | [Luke Dashjr](https://twitter.com/lukedashjr) | 2018-10 ~ Now |                |
-| [Ben Woosley](https://github.com/Empact) | 2018-12 ~ Now |                |
+| [Ben Woosley](https://github.com/Empact) | 2018-12 ~ 2019-11 |                |
 
 ## Others / 其他
 
